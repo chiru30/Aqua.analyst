@@ -2,7 +2,7 @@ import streamlit as st
 import codecs
 import streamlit.components.v1 as components
 import pandas as pd
-import matplotlib.pyplot as plt
+
 import numexpr as ne
 
 def st_webdev(calc_html,width=700,height=500):
