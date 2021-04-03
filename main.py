@@ -3,7 +3,7 @@ import codecs
 import streamlit.components.v1 as components
 import pandas as pd
 
-import numexpr as ne
+
 
 def st_webdev(calc_html,width=700,height=500):
   calc_file = codecs.open(calc_html,'r')
