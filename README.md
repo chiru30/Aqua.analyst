@@ -1,7 +1,7 @@
 # Aqua.analyst
 ## Table of contents
 * [Information](#general-info)
-* [Web-Interface](#screenshots)
+* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
