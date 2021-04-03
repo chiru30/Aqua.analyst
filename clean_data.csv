@@ -1,0 +1,74 @@
+,LOCATIONS,STATE,Temperature_Min,Temperature_Max,Temperature_Mean,pH_Min,pH_Max,pH_Mean,Conductivity_Min,Conductivity_Max,Conductivity_Mean,BOD_Min,BOD_Max,BOD_Mean,Nitrate_Min,Nitatre_Max,Nitrate_Mean,Fecal_coliform_Min,Fecal_coliform_Max,Fecal_coliform_Mean,Total_coliform_Min,Total_coliform_Max,Total_coliform_Mean
+0,WELL NEAR J.B SCHOOL,Lakshadweep,27.7,32.8,30.1,6.7,7.9,7.3,816,1248,951,0.0,0.0,0.0,0.0,0.0,0.0,4000.0,4000.0,4000.0,4000.0,100000.0,22333.0
+1,WELL NEAR OTTAVATHIL PALLI,Lakshadweep,27.5,32.6,29.9,6.8,7.6,7.2,1178,2240,1727,0.0,0.0,0.0,0.0,0.0,0.0,1000.0,2000.0,1333.0,1000.0,25000.0,8909.0
+2,WELL NEAR CHEKKILLAM HOUSE,Lakshadweep,27.4,32.5,29.7,6.5,7.6,7.2,590,1004,777,0.0,0.0,0.0,0.0,0.0,0.0,2000.0,114000.0,25857.0,10000.0,128000.0,37250.0
+3,WELL C/O KADAT PALLI,Lakshadweep,27.0,32.5,29.7,6.9,658.0,61.5,458,1264,702,0.0,0.0,0.0,0.0,0.0,0.0,227.0,3000.0,1557.0,9000.0,74000.0,24250.0
+4,WELL NEAR BADER PALLI,Lakshadweep,27.8,31.6,29.7,6.7,8.1,7.4,585,694,660,0.0,0.0,0.0,0.0,0.0,0.0,465.0,14000.0,4116.0,300.0,294000.0,55192.0
+5,WELL C/O PUTHIYA PALLI,Lakshadweep,27.0,31.6,30.0,6.5,7.6,7.3,629,971,768,0.0,0.0,0.0,0.0,0.0,0.0,1000.0,18000.0,5952.0,900.0,392500.0,67533.0
+6,WELL C/O PURATHA PALLI,Lakshadweep,27.4,31.6,29.7,6.6,7.6,7.1,603,963,810,0.0,0.0,0.0,0.0,0.0,0.0,1000.0,1000.0,1000.0,2000.0,162000.0,32000.0
+7,WELL C/O ANDAM PALLI,Lakshadweep,27.8,31.5,30.1,6.5,7.4,7.0,823,1041,937,0.0,0.0,0.0,0.0,0.0,0.0,1000.0,1578.0,1289.0,1000.0,117000.0,26864.0
+8,WELL C/O CIRCUIT HOUSE,Lakshadweep,28.3,30.7,29.8,6.6,7.5,7.2,695,3660,2012,0.0,0.0,0.0,0.0,0.0,0.0,7000.0,11000.0,9000.0,4000.0,420000.0,145773.0
+9,WELL C/O GOVT. PRESS,Lakshadweep,27.8,30.7,29.3,6.8,7.6,7.3,1313,1970,1645,0.0,0.0,0.0,0.0,0.0,0.0,1000.0,12000.0,4000.0,4000.0,68000.0,25250.0
+10,WELL C/O OLD POLICE BARRACKS,Lakshadweep,28.5,30.9,29.5,6.9,7.4,7.2,1513,4830,2842,0.0,0.0,0.0,0.0,0.0,0.0,1000.0,26000.0,8500.0,4000.0,183000.0,60333.0
+11,WELL NEAR HALIPAD,Lakshadweep,28.6,30.8,29.6,7.0,7.6,7.3,1019,1800,1254,0.0,0.0,0.0,0.0,0.0,0.0,3000.0,10000.0,6500.0,4000.0,1120000.0,241873.0
+12,PUBLIC WELL OPPOSITE S.B.SCHOOL,Lakshadweep,28.0,31.5,29.9,6.6,8.0,7.3,638,1165,902,0.0,0.0,0.0,0.0,0.0,0.0,1000.0,5000.0,3000.0,11300.0,240000.0,77692.0
+13,"JAGATPUR INDUSTRIAL AREA, CUTTACK",Odisha,28.0,28.0,28.0,7.1,7.2,7.2,515,842,679,0.4,0.4,0.4,1.2,5.8,3.5,4.0,4.0,4.0,23.0,23.0,23.0
+14,"MADHUPATNA- KALYAN NAGAR AREA, CUTTACK",Odisha,27.0,28.0,27.5,7.0,7.4,7.2,222,498,360,0.1,1.0,0.6,0.3,6.9,3.6,28.0,28.0,28.0,240.0,240.0,240.0
+15,"BIDANASHI - TULASIPUR AREA, CUTTACK",Odisha,26.0,27.0,26.5,7.2,7.6,7.4,163,173,168,0.1,0.2,0.2,0.2,0.7,0.5,0.0,0.0,0.0,2.0,2.0,2.0
+16,"BADAMBARI AREA, CUTTACK",Odisha,28.0,28.0,28.0,6.9,7.4,7.2,661,804,733,0.3,1.4,0.9,0.4,0.8,0.6,0.0,0.0,0.0,2.0,2.0,2.0
+17,"RANIHAT- MANGALABAGH AREA, CUTTACK",Odisha,25.0,37.0,29.0,7.3,8.3,7.7,132,851,336,0.2,23.3,6.7,0.6,10.6,4.7,92000.0,160000.0,143000.0,160000.0,600000.0,215000.0
+18,"KHANDAGIRI AREA, BHUBANESWAR",Odisha,26.0,33.0,29.5,6.1,6.1,6.1,143,290,217,0.1,0.5,0.3,1.3,9.7,5.5,0.0,0.0,0.0,0.0,0.0,0.0
+19,"CAPITAL HOSPITAL AREA, BHUBANESWAR",Odisha,26.0,30.0,28.0,6.4,7.5,7.0,245,274,260,0.3,0.5,0.4,0.4,1.6,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+20,"OLD TOWN- SAMANTARAAIPUR AREA, BHUBANESWAR",Odisha,29.0,30.0,29.5,6.4,7.4,6.9,652,774,713,0.3,0.4,0.4,1.3,8.2,4.8,0.0,0.0,0.0,0.0,0.0,0.0
+21,"KALPNA - LAXMINAGAR AREA, BHUBANESWAR",Odisha,29.0,30.0,29.5,6.9,7.0,7.0,255,427,341,0.3,0.7,0.5,1.8,6.0,3.9,23.0,23.0,23.0,49.0,49.0,49.0
+22,"MANCHESWAR INDUSTRIAL AREA, BHUBANESWAR",Odisha,29.0,30.0,29.5,6.3,7.7,7.0,107,235,171,0.1,0.2,0.2,0.7,2.2,1.4,8.0,8.0,8.0,23.0,23.0,23.0
+23,"SECRETARIAT- GOVERNOR HOUSE- OLDBUS STAND AREA, BHUBANESWAR",Odisha,29.0,30.0,29.5,6.4,7.4,6.9,149,182,166,0.4,2.1,1.3,0.6,0.8,0.7,33.0,33.0,33.0,79.0,79.0,79.0
+24,"NEAR SEA BEACH, PURI",Odisha,28.0,28.0,28.0,8.0,8.4,8.2,1176,1340,1258,0.1,0.4,0.3,2.2,10.4,6.3,0.0,0.0,0.0,0.0,0.0,0.0
+25,"NEAR JAGANNATH TEMPLE, PURI",Odisha,26.0,27.0,26.5,7.9,7.9,7.9,988,1017,1003,0.2,0.3,0.3,2.9,11.0,6.9,130.0,130.0,130.0,540.0,540.0,540.0
+26,"HOSPITAL - BUSSTAND- MAUSHIMA TEMPLE AREA, PURI",Odisha,26.0,27.0,26.5,7.7,8.3,8.0,761,855,808,0.3,0.6,0.5,2.8,9.3,6.0,13.0,13.0,13.0,220.0,220.0,220.0
+27,"NEAR RIVER KUSHABHADRA, PURI",Odisha,27.0,28.0,27.5,8.2,8.3,8.3,320,403,362,0.2,0.5,0.4,0.3,3.0,1.6,0.0,0.0,0.0,0.0,0.0,0.0
+28,GROUND WATER SAMPLING AT TWO POINTS IN INDUSTRIAL AREA MALANPUR,Madhya Pradesh,35.0,35.0,35.0,7.1,7.1,7.1,1005,1005,1005,127.4,127.4,127.4,1.0,1.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0
+29,"MEHATWAS, NAGDA",Madhya Pradesh,0.0,0.0,0.0,7.5,7.5,7.5,1880,1880,1880,0.0,0.0,0.0,1.8,1.8,1.8,0.0,0.0,0.0,0.0,0.0,0.0
+30,"BHAGATPURI VILLAGE, NAGDA",Madhya Pradesh,28.0,28.0,28.0,7.5,7.5,7.5,920,920,920,0.0,0.0,0.0,5.1,5.1,5.1,0.0,0.0,0.0,110.0,110.0,110.0
+31,"DOSIGAON, RATLAM",Madhya Pradesh,0.0,0.0,0.0,8.2,8.2,8.2,3540,3540,3540,0.0,0.0,0.0,3.1,3.1,3.1,0.0,0.0,0.0,0.0,0.0,0.0
+32,"CULVERT ON A.B. ROAD, MAKSI",Madhya Pradesh,28.0,28.0,28.0,7.1,7.1,7.1,1000,1000,1000,0.0,0.0,0.0,6.0,6.0,6.0,0.0,0.0,0.0,40.0,40.0,40.0
+33,Trenching Ground Nr Garden Dev Guradia,Madhya Pradesh,29.0,29.0,29.0,7.5,7.5,7.5,1192,1192,1192,2.3,2.3,2.3,2.3,2.3,2.3,0.0,0.0,0.0,25.0,25.0,25.0
+34,Trenching Ground Premises of Rishabh Masala,Madhya Pradesh,29.0,29.0,29.0,7.3,7.3,7.3,3347,3347,3347,1.8,1.8,1.8,30.5,30.5,30.5,0.0,0.0,0.0,26.0,26.0,26.0
+35,Trenching Ground Premises of Lakhani Foot Wear,Madhya Pradesh,29.2,29.2,29.2,7.5,7.5,7.5,2878,2878,2878,2.0,2.0,2.0,29.5,29.5,29.5,0.0,0.0,0.0,38.0,38.0,38.0
+36,"TUBE WELL/ HAND PUMP AT INDUSTRIAL AREA, DEWAS",Madhya Pradesh,0.0,0.0,0.0,7.6,7.6,7.6,1330,1330,1330,0.0,0.0,0.0,5.2,5.2,5.2,0.0,0.0,0.0,0.0,0.0,0.0
+37,"HAND PUMP NEAR PANCHAYAT BHAWAN, VILLAGE TINAWALI RAIRU",Madhya Pradesh,29.0,29.0,29.0,7.4,7.4,7.4,1100,1100,1100,2.0,2.0,2.0,1.2,1.2,1.2,0.0,0.0,0.0,0.0,0.0,0.0
+38,T.W./H.P near Manglia.Ind. Area,Madhya Pradesh,29.5,29.5,29.5,8.5,8.5,8.5,1475,1475,1475,1.0,1.0,1.0,2.6,2.6,2.6,0.0,0.0,0.0,8.0,8.0,8.0
+39,B.W.Water at.Kalindi Vihar Trenching ground,Madhya Pradesh,28.0,28.0,28.0,7.5,7.5,7.5,1660,1660,1660,1.1,1.1,1.1,7.3,7.3,7.3,0.0,0.0,0.0,94.0,94.0,94.0
+40,T.W.W. sec-III Pithampur Tube Wewll Water,Madhya Pradesh,29.0,29.0,29.0,7.0,7.0,7.0,2271,2271,2271,2.2,2.2,2.2,2.7,2.7,2.7,0.0,0.0,0.0,210.0,210.0,210.0
+41,T.W.W.at Village Tarpura sec-III Pithampur Tube Well Water,Madhya Pradesh,30.0,30.0,30.0,8.2,8.2,8.2,496,496,496,0.8,0.8,0.8,1.6,1.6,1.6,0.0,0.0,0.0,110.0,110.0,110.0
+42,"Dug well at 5 -Star Industrial estate, Village-Kashimira Taluka- Mira- Bhayander District-Thane",Maharashtra,22.0,22.0,22.0,7.9,7.9,7.9,1385,1385,1385,5.0,5.0,5.0,1.7,1.7,1.7,20.0,20.0,20.0,40.0,40.0,40.0
+43,Bore well at Village- Motapada Taluka- Dahanu District- Thane,Maharashtra,29.0,29.0,29.0,8.5,8.5,8.5,699,699,699,5.6,5.6,5.6,0.6,0.6,0.6,15.0,15.0,15.0,25.0,25.0,25.0
+44,Bore well Village-Gokhiware Taluka- Vasai District- Thane,Maharashtra,22.0,22.0,22.0,7.8,7.8,7.8,608,608,608,5.0,5.0,5.0,1.0,1.0,1.0,30.0,30.0,30.0,45.0,45.0,45.0
+45,"Bore well at Gharatwadi, Village- Aliyali Taluka- Palghar District- Thane",Maharashtra,29.0,29.0,29.0,8.5,8.5,8.5,871,871,871,5.2,5.2,5.2,0.6,0.6,0.6,14.0,14.0,14.0,26.0,26.0,26.0
+46,"Bore well at MWML site, Village-Karawla, Taloja Taluka- Panvel District- Raigad",Maharashtra,28.0,28.0,28.0,7.0,7.0,7.0,90,90,90,4.0,4.0,4.0,1.4,1.4,1.4,12.0,12.0,12.0,24.0,24.0,24.0
+47,Dug Well,Maharashtra,28.0,28.0,28.0,7.4,7.4,7.4,1016,1016,1016,3.0,3.0,3.0,0.2,0.2,0.2,2.0,2.0,2.0,79.0,79.0,79.0
+48,"Dug well at TPS-Durgapur Village-Durgapur , Taluka- Chandrapur, District- Chandrapur",Maharashtra,26.0,26.0,26.0,8.0,8.0,8.0,943,943,943,5.0,5.0,5.0,100.7,100.7,100.7,0.0,0.0,0.0,0.0,0.0,0.0
+49,"Bore well Near Gram Panchayat office. Village-Changera, Taluka- Gondia, District- Gondia.",Maharashtra,28.0,28.0,28.0,8.3,8.3,8.3,555,555,555,6.0,6.0,6.0,1.1,1.1,1.1,60.0,60.0,60.0,90.0,90.0,90.0
+50,"Tube well at water treatment plant of.Achalpur M.C, near Post Office. Village-Paratwada, Taluka- Achalpur, District- Amravati",Maharashtra,25.0,25.0,25.0,8.6,8.6,8.6,567,567,567,6.0,6.0,6.0,43.0,43.0,43.0,30.0,30.0,30.0,60.0,60.0,60.0
+51,"Bore well Opp. Gajanan MPCBaraj Temple at Anjangaon road. Village-Anjangaon, Taluka- Akot, District- Akola",Maharashtra,27.0,27.0,27.0,8.7,8.7,8.7,435,435,435,5.8,5.8,5.8,1.6,1.6,1.6,0.0,0.0,0.0,0.0,0.0,0.0
+52,"Dug well at Plot No- 4, Street No. 49-C, at Nehru Bal Udyan Azad Maidan, owned by Yavatmal M.C. Village- Nehru Bal Udyan Azad Maidan, Taluka- Yavatmal, District- Yavatmal.",Maharashtra,27.0,27.0,27.0,8.7,8.7,8.7,435,435,435,5.8,5.8,5.8,1.6,1.6,1.6,0.0,0.0,0.0,0.0,0.0,0.0
+53,"Bore well water sample at savali, Tal. Miraj, Dist Sangli.",Maharashtra,25.0,25.0,25.0,7.3,7.3,7.3,1956,1956,1956,2.8,2.8,2.8,1.4,1.4,1.4,0.0,0.0,0.0,0.0,0.0,0.0
+54,"Dugwell Water sample at Rasulwadi Tal. Miraj, Dist. Sangli.",Maharashtra,25.0,25.0,25.0,7.4,7.4,7.4,2425,2425,2425,2.9,2.9,2.9,0.5,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0
+55,Bore Well,Maharashtra,29.0,29.0,29.0,7.8,7.8,7.8,928,928,928,4.0,4.0,4.0,0.1,0.1,0.1,2.0,2.0,2.0,94.0,94.0,94.0
+56,Dug Well,Maharashtra,28.0,28.0,28.0,7.2,7.2,7.2,1200,1200,1200,4.0,4.0,4.0,0.4,0.4,0.4,2.0,2.0,2.0,70.0,70.0,70.0
+57,"Dugwell at Ghane Kunth near Awashi, Owned by Shri. Rajendra Ambre vill Ghanekunth Tal. Khed, Dist. Ratnagiri",Maharashtra,23.0,23.0,23.0,7.3,7.3,7.3,168,168,168,3.3,3.3,3.3,1.4,1.4,1.4,0.0,0.0,0.0,0.0,0.0,0.0
+58,"Hand Pump in the premises of Zilla Parishad Primary School. Village- Bhugaon, Taluka- Wardha, District- Wardha.",Maharashtra,28.0,28.0,28.0,8.0,8.0,8.0,1124,1124,1124,7.6,7.6,7.6,77.0,77.0,77.0,23.0,23.0,23.0,40.0,40.0,40.0
+59,"Dug well owned by Shri Deshmukh. Village- Malegaon, Taluka- Baramati, District- Pune.",Maharashtra,28.0,28.0,28.0,8.2,8.2,8.2,5495,5495,5495,3.2,3.2,3.2,1.3,1.3,1.3,8.0,8.0,8.0,550.0,550.0,550.0
+60,"Dug well owned by Shri Shivaji Baban Darekar Village- Sanaswadi, Taluka- Shirur, District- Pune.",Maharashtra,25.0,25.0,25.0,7.7,8.1,7.9,1306,1368,1337,3.2,4.3,3.8,1.6,2.4,2.0,25.0,60.0,43.0,425.0,550.0,488.0
+61,"Bore well at Bale railway station premises owned by Shri. Digambar Joshi. Village- Dahegaon,Taluka- North Solapur, District- Solapur.",Maharashtra,28.0,28.0,28.0,7.0,7.0,7.0,433,433,433,3.1,3.1,3.1,3.0,3.0,3.0,25.0,25.0,25.0,425.0,425.0,425.0
+62,"Bore well near Chincholi. Village- Chincholi, Taluka- Mohol, District- Solapur.",Maharashtra,28.0,28.0,28.0,7.0,7.0,7.0,415,415,415,4.3,4.3,4.3,2.0,2.0,2.0,30.0,30.0,30.0,550.0,550.0,550.0
+63,"Bore well at Shete Vasti, near old Tuljapur road. Village- Tuljapur naka, Taluka- Solapur,District- Solapur.",Maharashtra,28.0,28.0,28.0,6.9,6.9,6.9,440,440,440,3.2,3.2,3.2,2.3,2.3,2.3,20.0,20.0,20.0,425.0,425.0,425.0
+64,Bore Well,Maharashtra,28.0,28.0,28.0,7.4,7.4,7.4,1090,1090,1090,5.0,5.0,5.0,0.2,0.2,0.2,2.0,2.0,2.0,79.0,79.0,79.0
+65,"Dug well near Railway station, Cotton Market. Village- Wardha city, Taluka- Wardha,District- Wardha.",Maharashtra,27.0,27.0,27.0,8.0,8.0,8.0,1173,1173,1173,6.0,6.0,6.0,76.0,76.0,76.0,70.0,70.0,70.0,170.0,170.0,170.0
+66,"Bore well Near Railway crossing at Dongri Buzurg. Village- Dongri-Buzurg, Taluka- Tumsar,District- Bandara.",Maharashtra,27.0,27.0,27.0,8.0,8.0,8.0,553,553,553,7.4,7.4,7.4,2.6,2.6,2.6,80.0,80.0,80.0,110.0,110.0,110.0
+67,"Dug well near Jilla Parishet Primary school, Visapur. Village- Visapur, Taluka- Ballarpur,District- Chandrapur.",Maharashtra,27.0,27.0,27.0,8.0,8.0,8.0,915,915,915,6.2,6.2,6.2,24.0,24.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0
+68,"Dugwell water sample at Sakharoli Tal .Walwa, Dist Sangli.",Maharashtra,25.0,25.0,25.0,7.1,7.1,7.1,2387,2387,2387,2.7,2.7,2.7,0.7,0.7,0.7,0.0,0.0,0.0,0.0,0.0,0.0
+69,"Dugwell no 1 at Brahamanwadi (C/O Shri Vaidya) Vill Anjanwell, Tal. Guhagar, Dist Ratangiri.",Maharashtra,23.0,23.0,23.0,7.2,7.2,7.2,130,130,130,2.9,2.9,2.9,0.6,0.6,0.6,0.0,0.0,0.0,0.0,0.0,0.0
+70,"Dugwell no. 1 at Grampanchayat at Arkatewadi near Masjid, Khed, Ratangiri.",Maharashtra,23.0,23.0,23.0,7.1,7.1,7.1,177,177,177,3.5,3.5,3.5,1.3,1.3,1.3,0.0,0.0,0.0,0.0,0.0,0.0
+71,"Dugwell no 2 at Arkatewadi, Khed, Ratnagiri",Maharashtra,23.0,23.0,23.0,7.3,7.3,7.3,133,133,133,3.4,3.4,3.4,0.7,0.7,0.7,0.0,0.0,0.0,0.0,0.0,0.0
+72,"Durgwell no. 2 owned by Group Gram Panchayat at Brahmanwadi Vill Anjanwell, Tal. Guhagar, Dist. Ratnagiri.",Maharashtra,23.0,23.0,23.0,7.1,7.1,7.1,175,175,175,2.8,2.8,2.8,0.5,0.5,0.5,0.0,0.0,0.0,0.0,0.0,0.0
