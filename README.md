@@ -45,4 +45,3 @@ Add here credits. Project inspired by..., based on...
 
 ## Contact
 Created by [Chiranthana R R](https://www.linkedin.com/in/chiranthana-r-r-232385200/) - feel free to contact me!
-Created by [](https://www.linkedin.com/in/chiranthana-r-r-232385200/) - feel free to contact me!
