@@ -2,29 +2,54 @@ import streamlit as st
 import codecs
 import streamlit.components.v1 as components
 import pandas as pd
+from streamlit_lottie import st_lottie
+import requests
 import matplotlib.pyplot as plt
-import numexpr as ne
 
-def st_webdev(calc_html,width=700,height=500):
-  calc_file = codecs.open(calc_html,'r')
-  page = calc_file.read()
-  components.html(page,width=width,height=height)
+#def st_webdev(calc_html,width=700,height=500):
+  #calc_file = codecs.open(calc_html,'r')
+  #page = calc_file.read()
+  #components.html(page,width=width,height=height)
 
-
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
 data=pd.read_csv("data//clean_data.csv")
 
 st.set_page_config(layout="wide")
 
-def main():
+#def main():
 
- rad=st.sidebar.radio("Menu",["Home","Analyst","Dashboard","Feeds"])
- if rad == "Home":
-    st.image("data//1 (1).png", width=200)
+rad=st.sidebar.radio("Menu",["Home","Analyst","Dashboard","Feeds"])
+if rad == "Home":
     st.title("AQUA.ANALYST")
-    st.header("Our aim is to bring the awareness among people for water conservation")
-    st.subheader("What our project contains")
+    st.markdown("""
+      _ Water Smarter , What a Starter _
+      ## INTRODUCTION
+      ### As we are unaware of our groundwater quality and its importance , we are consuming the polluted water which is taking toll on our health , agriculture and every sector of our living. Aqua.Analyst is a platform to analyse the chemical details of groundwater
+      ## ABOUT US
+      """,True)
+    st.video("data//WhatsApp Video 2021-04-03 at 16.14.16.mp4")
+    st.header("Hydrological Models")
+    a,b,c=st.beta_columns(3)
+    a.image("data//Groundwater-Diagram-Gov-of-Newfoundland-Labrador-Canada-2016.jpg")
+    b.image("data//R5e5ba91fbd353d083c43de60ff835aa6.jpg")
+    c.image("data//R76a84086585340c2423f5a8adb145738.jpg")
+    st.header("Research")
+    a,b,c=st.beta_columns(3)
+    a.image("data//HQ30D-Portable-pH-and-ConductivityTDS-Meter4-460x295.jpg")
+    b.image("data//r_3994-natural-resources-wales-opens-new-water-testing-lab.jpg")
+    c.image("data//OIP.jpg")
+    st.header("Geo-Spacial Visuals")
+    a,b,c=st.beta_columns(3)
+    a.image("data//WhatsApp Image 2021-04-04 at 09.11.43.jpeg")
+    b.image("data//WhatsApp Image 2021-04-04 at 09.11.52.jpeg")
+    c.image("data//05153222-BB46-4A29-9B72-91136C4337EE.jpeg")
 
- if rad== "Dashboard":
+
+if rad== "Dashboard":
   rad1=st.sidebar.radio("Dashboard contents",["Agricultural Production","Agricultural Output","State Statistics"]) 
   if rad1 == "State Statistics":
    st.title("Visualisations")
@@ -54,19 +79,27 @@ def main():
    col11.image("data//visualizations//top5_bod.png")
    col12.image("data//visualizations//top5_total_coliform.png")
    st.image("data//visualizations//total_coliform_nd_pH_piechart.png")
-  if rad1 == "Agricultural Output":
+  if rad1 == "Agricultural Production":
     st.title("Visualisations")
+    st.header("Land Area VS Production")
     c1,c2=st.beta_columns(2)
+    st.header("Co-relation")
+    c1.subheader("Line Chart")
     c1.image("data//area_vs_prod_linechart.png")
+    c2.subheader("Scatter Plot")
     c2.image("data//area_vs_prod_scatterplot.png")
     c3,c4=st.beta_columns(2)
+    st.header("Production and Production per area")
+    c3.subheader("Heat Map")
     c3.image("data//heatmap.png")
+    c4.subheader("pair plot")
     c4.image("data//pairplot.png")
     c5,c6=st.beta_columns(2)
+    c5.subheader("pie chart")
     c5.image("data//state_vs_prod_piechart.png")
-    c6.image("data//state_vs_production.png")
-    st.image("data//top_10_prod_state_barchart.png")
-  if rad1 == "Agricultural Production":
+    c6.subheader("Top ten States and Production")
+    c6.image("data//top_10_prod_state_barchart.png")
+  if rad1 == "Agricultural Output":
     st.title("Visualisations")
     c1,c2=st.beta_columns(2)
     c1.image("data//agri-output//bod_scatterplot.png")
@@ -78,7 +111,7 @@ def main():
     c5.image("data//agri-output//ph_scatterplot.png")
     c6.image("data//agri-output//temperature_scatterplot.png")
     st.image("data//agri-output//total_coliform_scatterplot.png")
- if rad == "Analyst":
+if rad == "Analyst":
     st.title("Analyst")
     st.markdown(""" 1.8 billion people around the world lack access to safe water,
     therefore it is essential to spread water awareness :droplet: """)
@@ -87,41 +120,33 @@ def main():
     if state=="Madhya Pradesh":
       lm=c2.selectbox("Landmark",["","GROUND WATER SAMPLING AT TWO POINTS IN INDUSTRIAL AREA MALANPUR","MEHATWAS, NAGDA","BHAGATPURI VILLAGE, NAGDA","DOSIGAON, RATLAM","CULVERT ON A.B. ROAD, MAKSI","Trenching Ground Nr Garden Dev Guradia","Trenching Ground Premises of Rishabh Masala","Trenching Ground Premises of Lakhani Foot Wear","TUBE WELL/ HAND PUMP AT INDUSTRIAL AREA, DEWAS","HAND PUMP NEAR PANCHAYAT BHAWAN, VILLAGE TINAWALI RAIRU","T.W./H.P near Manglia.Ind. Area","B.W.Water at.Kalindi Vihar Trenching ground","T.W.W. sec-III Pithampur Tube Wewll Water","T.W.W.at Village Tarpura sec-III Pithampur Tube Well Water"])
     elif state == "Lakshadweep":
-      lm=c2.selectbox("Landmark",["WELL NEAR J.B SCHOOL","WELL NEAR OTTAVATHIL PALLI","WELL NEAR CHEKKILLAM HOUSE","WELL C/O KADAT PALLI","WELL NEAR BADER PALLI","WELL C/O PUTHIYA PALLI"])
-    elif state == "Rajasthan":
-      lm=c2.selectbox("Landmark",["raj","as","than"])
-    elif state == "Tamil Nadu":
-      lm=c2.selectbox("Landmark",["a","b","c"])
+      lm=c2.selectbox("Landmark",["WELL NEAR J.B SCHOOL","WELL NEAR OTTAVATHIL PALLI","WELL NEAR CHEKKILLAM HOUSE","WELL C/O KADAT PALLI","WELL NEAR BADER PALLI","WELL C/O PUTHIYA PALLI","WELL C/O ANDAM PALLI","WELL C/O CIRCUIT HOUSE","WELL C/O GOVT. PRESS","WELL C/O OLD POLICE BARRACKS","WELL NEAR HALIPAD","PUBLIC WELL OPPOSITE S.B.SCHOOL"])
+    elif state == "Odisha":
+      lm=c2.selectbox("Landmark",["JAGATPUR INDUSTRIAL AREA, CUTTACK","MADHUPATNA- KALYAN NAGAR AREA, CUTTACK","BIDANASHI - TULASIPUR AREA, CUTTACK","BADAMBARI AREA, CUTTACK","RANIHAT- MANGALABAGH AREA, CUTTACK","KHANDAGIRI AREA, BHUBANESWAR","CAPITAL HOSPITAL AREA, BHUBANESWAR","OLD TOWN- SAMANTARAAIPUR AREA, BHUBANESWAR","KALPNA - LAXMINAGAR AREA, BHUBANESWAR","MANCHESWAR INDUSTRIAL AREA, BHUBANESWAR","SECRETARIAT- GOVERNOR HOUSE- OLDBUS STAND AREA, BHUBANESWAR","NEAR SEA BEACH, PURI","NEAR JAGANNATH TEMPLE, PURI","HOSPITAL - BUSSTAND- MAUSHIMA TEMPLE AREA, PURI","NEAR RIVER KUSHABHADRA, PURI"])
+    elif state == "Maharashtra":
+      lm=c2.selectbox("Landmark",["Dug well at 5 -Star Industrial estate, Village-Kashimira Taluka- Mira- Bhayander District-Thane","Bore well at Village- Motapada Taluka- Dahanu District- Thane","Bore well Village-Gokhiware Taluka- Vasai District- Thane","Bore well at Gharatwadi, Village- Aliyali Taluka- Palghar District- Thane","Bore well at MWML site, Village-Karawla, Taloja Taluka- Panvel District- Raigad","Dug Well","Dug well at TPS-Durgapur Village-Durgapur , Taluka- Chandrapur, District- Chandrapur","Bore well Near Gram Panchayat office. Village-Changera, Taluka- Gondia, District- Gondia","Tube well at water treatment plant of.Achalpur M.C, near Post Office. Village-Paratwada, Taluka- Achalpur, District- Amravati","Bore well Opp. Gajanan MPCBaraj Temple at Anjangaon road. Village-Anjangaon, Taluka- Akot, District- Akola","Dug well at Plot No- 4, Street No. 49-C, at Nehru Bal Udyan Azad Maidan, owned by Yavatmal M.C. Village- Nehru Bal Udyan Azad Maidan, Taluka- Yavatmal, District- Yavatmal","Bore well water sample at savali, Tal. Miraj, Dist Sangli","Dugwell Water sample at Rasulwadi Tal. Miraj, Dist. Sangli","Bore Well","Dugwell at Ghane Kunth near Awashi, Owned by Shri. Rajendra Ambre vill Ghanekunth Tal. Khed, Dist. Ratnagiri","Hand Pump in the premises of Zilla Parishad Primary School. Village- Bhugaon, Taluka- Wardha, District- Wardha","Dug well owned by Shri Deshmukh. Village- Malegaon, Taluka- Baramati, District- Pune","Dug well owned by Shri Shivaji Baban Darekar Village- Sanaswadi, Taluka- Shirur, District- Pune","Bore well at Bale railway station premises owned by Shri. Digambar Joshi. Village- Dahegaon,Taluka- North Solapur, District- Solapur","Bore well near Chincholi. Village- Chincholi, Taluka- Mohol, District- Solapur","Bore well at Shete Vasti, near old Tuljapur road. Village- Tuljapur naka, Taluka- Solapur,District- Solapur","Dug well near Railway station, Cotton Market. Village- Wardha city, Taluka- Wardha,District- Wardha","Bore well Near Railway crossing at Dongri Buzurg. Village- Dongri-Buzurg, Taluka- Tumsar,District- Bandara","Dug well near Jilla Parishet Primary school, Visapur. Village- Visapur, Taluka- Ballarpur,District- Chandrapur","Dugwell water sample at Sakharoli Tal .Walwa, Dist Sangli","Dugwell no 1 at Brahamanwadi (C/O Shri Vaidya) Vill Anjanwell, Tal. Guhagar, Dist Ratangiri.","Dugwell no. 1 at Grampanchayat at Arkatewadi near Masjid, Khed, Ratangiri.","Dugwell no 2 at Arkatewadi, Khed, Ratnagiri","Durgwell no. 2 owned by Group Gram Panchayat at Brahmanwadi Vill Anjanwell, Tal. Guhagar, Dist. Ratnagiri."])
 
     if st.checkbox("Show Data"):
        data.loc[(data['LOCATIONS']==lm) & (data['STATE']==state)]
- if rad == "Feeds":
-       st_webdev('index.html')
-       st_webdev('index2.html')
-       st_webdev('index3.html')
-       #if st.checkbox("To know Portability select me"):
-        #a,b,c=st.beta_columns((1,1,1))
-        #a.text_input("BOD_Min")
-        #a.text_input("MMD")
-        #b.text_input("BOD_Max")
-        #c.text_input("BOD_Mean")
-        #if st.button("Check"):
-          #components.html("<html><body> <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3867559.4230803624!2d74.5308077009342!3d18.802007899954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfc41e9c9cd6f9%3A0x1b2f22924be04fb6!2sMaharashtra!5e0!3m2!1sen!2sin!4v1617358832060!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> </p></body></html>")
-          #st_webdev('index.html')
-       #p=data.index[(data['STATE']==state) & (data['LOCATIONS']==lm)].tolist()
-       #p=(data.index[data['LOCATIONS'] == lm].tolist())
-       #st.write(p)
-       #from_val = p
-       #data.iloc[:,12] 
-       #st.write(p)
-       #for index in data.iterrows():
-        # if (index==p):
-       #for key,value in data.iterrows():
-          #if key==0:
-            #if data.loc[(data['LOCATIONS']==lm) & (data['STATE']==state) & (data['BOD_Min']==0)]:
-              #st.write("Permissible")
-          #st.write(key,)   
-          
-       #data.at[data[0],'BOD_Min']
-if __name__ == "__main__":
-    main()
+       st.subheader("States VS Temperature")
+       st.bar_chart(data['Temperature_Mean'])
+       st.subheader("States VS BOD")
+       st.bar_chart(data['BOD_Mean'])
+       st.subheader("States VS Conductivity")
+       st.bar_chart(data['Conductivity_Mean'])
+       st.subheader("States VS pH")
+       st.bar_chart(data['pH_Mean'])
+       st.subheader("States VS Nitrate")
+       st.bar_chart(data['Nitrate_Mean'])
+       st.subheader("States VS Fecal Coliform")
+       st.bar_chart(data['Fecal_coliform_Mean'])
+       st.subheader("States VS Total Coliform")
+       st.bar_chart(data['Total_coliform_Mean'])
+if rad == "Feeds":
+       lottie_book = load_lottieurl('https://assets1.lottiefiles.com/packages/lf20_tjwsyfkj.json')
+       st_lottie(lottie_book, speed=1, height=200, key="initial")
+       st.header('[World Bank Signs Agreement to Improve Groundwater Management](https://www.worldbank.org/en/news/press-release/2020/02/17/improving-groundwater-management-india)')
+       st.subheader('“In India groundwater is an important source for rural and urban domestic water supplies and its depletion is a cause of concern,” said Sameer Kumar Khare, Additional Secretary, Department of Economic Affairs, Ministry of Finance.  “The Atal Bhujal Yojana intends to strengthen the institutional framework for participatory groundwater management and encourage behavioral changes at the community level for sustainable groundwater resource management.  The use of cutting-edge technology, involving Artificial Intelligence and space technology will further help in better implementation of the program.”')
+       st.header('[India’s Groundwater Crisis: The Consequences of Unsustainable Pumping](https://www.futuredirections.org.au/publication/indias-groundwater-crisis-consequences-unsustainable-pumping/)')
+       st.subheader('India is the world’s highest user of groundwater. It consumes over a quarter of the global total – equivalent to 230 cubic kilometres per year. Groundwater from over 30 million access points supplies 85 per cent of drinking water in rural areas and 48 per cent of water requirements in urban areas. Most groundwater is used for irrigation, which accounts for 88 per cent of total groundwater usage. Groundwater is required for the daily needs of around 700 million Indians living in the country’s villages. An assessment of 6,607 groundwater units in 2011 found that 1,017 were “overexploited”, indicating the rate of groundwater extraction exceeded replenishment. Around one-third of all units in India were under stress. The World Bank predicts that by 2032, around 60 per cent of aquifers in the country will be in a critical state.')
+       
