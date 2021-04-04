@@ -1,6 +1,6 @@
 # Aqua.analyst
 ## Table of contents
-* [Information](#general-info)
+* [Information](#project-information)
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -9,8 +9,13 @@
 * [Inspiration](#inspiration)
 * [Contact](#contact)
 
-## General info
-Add more general information about project. What the purpose of the project is? Motivation?
+## PROJECT INFORMATION 
+AQUA.ANALYST is a platform which aims to provide detailed insights of the chemical components of their water sample to the users.
+Will let your value compare with the nearby locations
+Detailed relationships and correlational patterns of the components
+A peek into articles related to the topic
+Various visualisations to compare water quality in different states
+Insights and visuals on effect of agriculture and crop production due to chemical components 
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
