@@ -7,7 +7,6 @@
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## PROJECT INFORMATION 
@@ -24,35 +23,38 @@ CLICK THE LOGO TO WATCH
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Home page](homepage.jpeg)
+![Analyst](analyst.jpeg)
+![Dashboard](statedash.jpeg)
+![Analyst Visuals](visuals.jpeg)
+![Feed](feed.jpeg)
+
+
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Data Science
+* Data Visualisation
+* Data Analytics
+* Statistical Algorithm
+* Streamlit
+* Python
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+pip install streamlit
 
 ## Code Examples
-Show examples of usage:
-`put-your-code-here`
+![Apriori Algo](apriori_image.jpeg)
 
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
 
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* HOME
+* ANALYST
+* DASHBOARDS
+* FEED
 
 ## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
+Project done 
 
-## Inspiration
-Add here credits. Project inspired by..., based on...
 
 ## Contact
 Created by [Chiranthana R R](https://www.linkedin.com/in/chiranthana-r-r-232385200/) - feel free to contact me!
