@@ -5,7 +5,6 @@ import pandas as pd
 from streamlit_lottie import st_lottie
 import requests
 import matplotlib.pyplot as plt
-
 #def st_webdev(calc_html,width=700,height=500):
   #calc_file = codecs.open(calc_html,'r')
   #page = calc_file.read()
