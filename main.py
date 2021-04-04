@@ -2,7 +2,7 @@ import streamlit as st
 import codecs
 import streamlit.components.v1 as components
 import pandas as pd
-from streamlit_lottie import st_lottie
+#from streamlit_lottie import st_lottie
 import requests
 import matplotlib.pyplot as plt
 
@@ -158,8 +158,8 @@ if rad== "Dashboard":
     st.subheader("Total Coliform VS Agricultural Output")
     st.image("data//agri-output//total_coliform_scatterplot.png")
 if rad == "Analyst":
-    lottie_book = load_lottieurl('https://assets5.lottiefiles.com/packages/lf20_8hddy41z.json')
-    st_lottie(lottie_book, speed=1, height=200, key="initial")
+    #lottie_book = load_lottieurl('https://assets5.lottiefiles.com/packages/lf20_8hddy41z.json')
+    #st_lottie(lottie_book, speed=1, height=200, key="initial")
     st.title("Analyst")
     st.markdown(""" 1.8 billion people around the world lack access to safe water,
     therefore it is essential to spread water awareness :droplet: """)
@@ -194,8 +194,8 @@ if rad == "Analyst":
        st.subheader("States VS Total Coliform")
        st.bar_chart(data['Total_coliform_Mean'])
 if rad == "Feeds":
-       lottie_book = load_lottieurl('https://assets1.lottiefiles.com/packages/lf20_tjwsyfkj.json')
-       st_lottie(lottie_book, speed=1, height=200, key="initial")
+       #lottie_book = load_lottieurl('https://assets1.lottiefiles.com/packages/lf20_tjwsyfkj.json')
+       #st_lottie(lottie_book, speed=1, height=200, key="initial")
        st.header('[World Bank Signs Agreement to Improve Groundwater Management](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=World+Bank+Signs+Agreement+to+Improve+Groundwater+Management+in+India&btnG=)')
        st.image('data//agri-output//the-world-bank-Insert.jpg')
        st.subheader('“In India groundwater is an important source for rural and urban domestic water supplies and its depletion is a cause of concern,” said Sameer Kumar Khare, Additional Secretary, Department of Economic Affairs, Ministry of Finance.  “The Atal Bhujal Yojana intends to strengthen the institutional framework for participatory groundwater management and encourage behavioral changes at the community level for sustainable groundwater resource management.  The use of cutting-edge technology, involving Artificial Intelligence and space technology will further help in better implementation of the program.”')
