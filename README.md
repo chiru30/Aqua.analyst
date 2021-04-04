@@ -19,9 +19,7 @@
 * Insights and visuals on effect of agriculture and crop production due to chemical components 
 
 ## INTRO VIDEO
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1ugZsFyzRpeQ0p3te1yXjN81Li3AZNBCF/view?usp=sharing" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+[![Check out the intro video](2bg.jpg)](https://drive.google.com/file/d/1ugZsFyzRpeQ0p3te1yXjN81Li3AZNBCF/view?usp=sharing)
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
