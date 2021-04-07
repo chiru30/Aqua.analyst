@@ -20,6 +20,7 @@
 ## INTRO VIDEO
 
 CLICK THE LOGO TO WATCH
+
 [![Check out the intro video](2bg.jpg)](https://drive.google.com/file/d/1ugZsFyzRpeQ0p3te1yXjN81Li3AZNBCF/view?usp=sharing)
 
 
